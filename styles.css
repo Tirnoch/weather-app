@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  flex-direction: column;
+  gap: 10px;
+}
+#input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+
+#display {
+  display: flex;
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+}
